@@ -4,7 +4,7 @@ using namespace std;
 
 
 
-TEST_F(PrimeFixture, Of1) {
+TEST(PrimeFactorTest, Of1) {
 	PrimeFactor primeFactor;
 	vector<int> expected = {};
 	EXPECT_EQ(expected, primeFactor.of(1));
